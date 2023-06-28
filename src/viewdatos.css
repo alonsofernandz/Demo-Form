@@ -1,21 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
-  
-
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=SF Pro Text:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jua:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
  body{
     margin:0;
 
@@ -28,7 +11,8 @@
     background:transparent;
   }
   .container{
-    margin:0 auto;
+    margin: auto;
+    width: 34%;
   overflow:auto;
   }
   .container > div{
@@ -39,12 +23,7 @@
     box-sizing:border-box;
     width:100%;
   }
-  button{
-    cursor:pointer;
-    width:100%;
-    border:0;
-    text-align:center;
-  }
+
   @media only screen and (max-width: 992px) {
     .wrap{
       flex-wrap: wrap;          
@@ -498,7 +477,7 @@
  border-radius:1.25rem;
  background-color:rgba(255, 255, 255, 1);
  display:flow-root;
- width:18.625rem;
+ width:100%;
  } 
 .text-nmero
 { 
@@ -572,7 +551,7 @@
  border-radius:1.25rem;
  background-color:rgba(255, 255, 255, 1);
  display:flow-root;
- width:18.625rem;
+ width:100%;
  } 
 .group-7
 { 
@@ -680,7 +659,7 @@
  border-radius:1.25rem;
  background-color:rgba(255, 255, 255, 1);
  display:flow-root;
- width:18.625rem;
+ width:100%;
  } 
 .text-nmero-0
 { 
@@ -1018,7 +997,7 @@
  border-radius:1.25rem;
  background-color:rgba(255, 255, 255, 1);
  display:flow-root;
- width:17.666961669921875rem;
+ width:100%;
  } 
 .text-fecha-0
 { 
