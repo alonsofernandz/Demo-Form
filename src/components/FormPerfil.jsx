@@ -125,8 +125,4 @@ const MiComponente = () => {
   );
 };
 
-<<<<<<< HEAD
 export default MiComponente;
-=======
-export default MiComponente;
->>>>>>> 51fd2e074d9eb1dfd17265382499f284ad01b15c
