@@ -31,11 +31,12 @@ export const FormContact = () => {
                 </div>
                 <div className="col-lg-6 mb-3 mt-3">
                     <p className="text-start">Planilla</p>
-                    <select className="form-select">
+                    <select className="form-select form-control">
                         <option>Elegir</option>
                         <option>Planilla</option>
-                        <option>Recibo por Honorarios</option>
+                        <option>Recibo por honorario</option>
                     </select>
+                     
                 </div>
             </div>
 

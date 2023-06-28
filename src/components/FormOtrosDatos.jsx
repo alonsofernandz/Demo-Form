@@ -5,9 +5,8 @@ export const FormOtrosDatos = () => {
   return (
     <>
 
-      <div className="container">
+      <div className="container mt-3">
 
-        <h2>Example Otros Datos</h2>
 
         <div className="col-md-12 col-lg-12 border border-2 border-secondary rounded p-4">
           <h4 className="mb-3">Otros Datos</h4>

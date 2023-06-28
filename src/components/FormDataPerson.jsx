@@ -15,7 +15,7 @@ export const FormDataPerson = () => {
 
 
   return (
-<div className="container">
+<div className="container mt-3">
   <div className="bg-light p-4 border rounded">
     <form>
       <h4 className="text-start my-4">Datos de Nacimiento</h4>
