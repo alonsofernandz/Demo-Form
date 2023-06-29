@@ -7,9 +7,12 @@ import { Boton } from './components/Buttons'
 import { FormDataPerson } from './components/FormDataPerson'
 import { FormLabolData } from './components/FormLaboData'
 import { FormOtrosDatos } from './components/FormOtrosDatos'
+import { ViewUser } from './components/ViewUser'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+
+
      <div className='container m-2'>
       <MiComponente />
       <Boton/>
@@ -35,6 +38,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Boton/>
       <FormOtrosDatos/>
     </div>
+
+    <ViewUser/>
 
 
     
