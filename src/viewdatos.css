@@ -1,0 +1,1038 @@
+
+ body{
+    margin:0;
+
+  }
+  p{
+    margin:0;
+    padding:0;
+  }
+  button{
+    background:transparent;
+  }
+  .container{
+    margin: auto;
+    width: 34%;
+  overflow:auto;
+  }
+  .container > div{
+    margin:0 auto;
+  
+  }
+  input{
+    box-sizing:border-box;
+    width:100%;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .wrap{
+      flex-wrap: wrap;          
+    }
+  }
+
+@media only screen and (max-width:575px)
+{ 
+ 
+.col-xs-1 
+{ 
+ width:8.333333333333334% !important;
+ } 
+
+.col-xs-2 
+{ 
+ width:16.666666666666668% !important;
+ } 
+
+.col-xs-3 
+{ 
+ width:25.0% !important;
+ } 
+
+.col-xs-4 
+{ 
+ width:33.333333333333336% !important;
+ } 
+
+.col-xs-5 
+{ 
+ width:41.66666666666667% !important;
+ } 
+
+.col-xs-6 
+{ 
+ width:50.0% !important;
+ } 
+
+.col-xs-7 
+{ 
+ width:58.333333333333336% !important;
+ } 
+
+.col-xs-8 
+{ 
+ width:66.66666666666667% !important;
+ } 
+
+.col-xs-9 
+{ 
+ width:75.0% !important;
+ } 
+
+.col-xs-10 
+{ 
+ width:83.33333333333334% !important;
+ } 
+
+.col-xs-11 
+{ 
+ width:91.66666666666667% !important;
+ } 
+
+.col-xs-12 
+{ 
+ width:100.0% !important;
+ } 
+
+
+} 
+
+@media only screen and (min-width:576px)
+{ 
+ 
+.col-s-1 
+{ 
+ width:8.333333333333334% !important;
+ } 
+
+.col-s-2 
+{ 
+ width:16.666666666666668% !important;
+ } 
+
+.col-s-3 
+{ 
+ width:25.0% !important;
+ } 
+
+.col-s-4 
+{ 
+ width:33.333333333333336% !important;
+ } 
+
+.col-s-5 
+{ 
+ width:41.66666666666667% !important;
+ } 
+
+.col-s-6 
+{ 
+ width:50.0% !important;
+ } 
+
+.col-s-7 
+{ 
+ width:58.333333333333336% !important;
+ } 
+
+.col-s-8 
+{ 
+ width:66.66666666666667% !important;
+ } 
+
+.col-s-9 
+{ 
+ width:75.0% !important;
+ } 
+
+.col-s-10 
+{ 
+ width:83.33333333333334% !important;
+ } 
+
+.col-s-11 
+{ 
+ width:91.66666666666667% !important;
+ } 
+
+.col-s-12 
+{ 
+ width:100.0% !important;
+ } 
+
+
+} 
+
+@media only screen and (min-width:768px)
+{ 
+ 
+.col-m-1 
+{ 
+ width:8.333333333333334% !important;
+ } 
+
+.col-m-2 
+{ 
+ width:16.666666666666668% !important;
+ } 
+
+.col-m-3 
+{ 
+ width:25.0% !important;
+ } 
+
+.col-m-4 
+{ 
+ width:33.333333333333336% !important;
+ } 
+
+.col-m-5 
+{ 
+ width:41.66666666666667% !important;
+ } 
+
+.col-m-6 
+{ 
+ width:50.0% !important;
+ } 
+
+.col-m-7 
+{ 
+ width:58.333333333333336% !important;
+ } 
+
+.col-m-8 
+{ 
+ width:66.66666666666667% !important;
+ } 
+
+.col-m-9 
+{ 
+ width:75.0% !important;
+ } 
+
+.col-m-10 
+{ 
+ width:83.33333333333334% !important;
+ } 
+
+.col-m-11 
+{ 
+ width:91.66666666666667% !important;
+ } 
+
+.col-m-12 
+{ 
+ width:100.0% !important;
+ } 
+
+
+} 
+
+@media only screen and (min-width:992px)
+{ 
+ 
+.col-l-1 
+{ 
+ width:8.333333333333334% !important;
+ } 
+
+.col-l-2 
+{ 
+ width:16.666666666666668% !important;
+ } 
+
+.col-l-3 
+{ 
+ width:25.0% !important;
+ } 
+
+.col-l-4 
+{ 
+ width:33.333333333333336% !important;
+ } 
+
+.col-l-5 
+{ 
+ width:41.66666666666667% !important;
+ } 
+
+.col-l-6 
+{ 
+ width:50.0% !important;
+ } 
+
+.col-l-7 
+{ 
+ width:58.333333333333336% !important;
+ } 
+
+.col-l-8 
+{ 
+ width:66.66666666666667% !important;
+ } 
+
+.col-l-9 
+{ 
+ width:75.0% !important;
+ } 
+
+.col-l-10 
+{ 
+ width:83.33333333333334% !important;
+ } 
+
+.col-l-11 
+{ 
+ width:91.66666666666667% !important;
+ } 
+
+.col-l-12 
+{ 
+ width:100.0% !important;
+ } 
+
+
+} 
+
+@media only screen and (min-width:1200px)
+{ 
+ 
+.col-xl-1 
+{ 
+ width:8.333333333333334% !important;
+ } 
+
+.col-xl-2 
+{ 
+ width:16.666666666666668% !important;
+ } 
+
+.col-xl-3 
+{ 
+ width:25.0% !important;
+ } 
+
+.col-xl-4 
+{ 
+ width:33.333333333333336% !important;
+ } 
+
+.col-xl-5 
+{ 
+ width:41.66666666666667% !important;
+ } 
+
+.col-xl-6 
+{ 
+ width:50.0% !important;
+ } 
+
+.col-xl-7 
+{ 
+ width:58.333333333333336% !important;
+ } 
+
+.col-xl-8 
+{ 
+ width:66.66666666666667% !important;
+ } 
+
+.col-xl-9 
+{ 
+ width:75.0% !important;
+ } 
+
+.col-xl-10 
+{ 
+ width:83.33333333333334% !important;
+ } 
+
+.col-xl-11 
+{ 
+ width:91.66666666666667% !important;
+ } 
+
+.col-xl-12 
+{ 
+ width:100.0% !important;
+ } 
+
+
+} 
+
+@media only screen and (min-width:1400px)
+{ 
+ 
+.col-xxl-1 
+{ 
+ width:8.333333333333334% !important;
+ } 
+
+.col-xxl-2 
+{ 
+ width:16.666666666666668% !important;
+ } 
+
+.col-xxl-3 
+{ 
+ width:25.0% !important;
+ } 
+
+.col-xxl-4 
+{ 
+ width:33.333333333333336% !important;
+ } 
+
+.col-xxl-5 
+{ 
+ width:41.66666666666667% !important;
+ } 
+
+.col-xxl-6 
+{ 
+ width:50.0% !important;
+ } 
+
+.col-xxl-7 
+{ 
+ width:58.333333333333336% !important;
+ } 
+
+.col-xxl-8 
+{ 
+ width:66.66666666666667% !important;
+ } 
+
+.col-xxl-9 
+{ 
+ width:75.0% !important;
+ } 
+
+.col-xxl-10 
+{ 
+ width:83.33333333333334% !important;
+ } 
+
+.col-xxl-11 
+{ 
+ width:91.66666666666667% !important;
+ } 
+
+.col-xxl-12 
+{ 
+ width:100.0% !important;
+ } 
+
+
+} 
+.info-empleado
+{ 
+ background-color:rgba(241, 241, 241, 1);
+ display:flow-root;
+ } 
+.info-personal
+{ 
+ border-radius:1.25rem;
+ display:flow-root;
+ } 
+.wrapper-col1-0
+{ 
+ position:relative;
+ height:65rem;
+ display:flow-root;
+ margin-left:0.1875rem;
+ margin-right:0.1875rem;
+ margin-top:0.9375rem;
+ margin-bottom:0.375rem;
+ width:100%;
+ } 
+.col2
+{ 
+ border-radius:1.25rem;
+ display:flow-root;
+ width:18.625rem;
+ position:absolute;
+ left:19.375rem;
+ top:0.0rem;
+ } 
+.datos-afiliacion
+{ 
+ border-radius:1.25rem;
+ display:flow-root;
+ width:18.625rem;
+ } 
+.text-datos
+{ 
+ color:#009ef7;
+ font-family:Inter;
+ font-size:1.5rem;
+ font-weight:600;
+ line-height:1.8153408765792847rem;
+ width:13.375rem;
+ margin-left:0.75rem;
+ margin-right:0.75rem;
+ } 
+.wrapper-text-nmero
+{ 
+ border-radius:1.25rem;
+ background-color:rgba(255, 255, 255, 1);
+ display:flow-root;
+ width:100%;
+ } 
+.text-nmero
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:9.5625rem;
+ margin-left:2.25rem;
+ margin-right:2.25rem;
+ margin-top:1.0rem;
+ } 
+.text-afp
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:13.9375rem;
+ margin-left:2.1875rem;
+ margin-right:2.1875rem;
+ margin-top:1.625rem;
+ } 
+.text-cts
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:13.8125rem;
+ margin-left:2.25rem;
+ margin-right:2.25rem;
+ margin-top:1.625rem;
+ } 
+.text-essalud
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:9.9375rem;
+ margin-left:2.25rem;
+ margin-right:2.25rem;
+ margin-top:1.625rem;
+ margin-bottom:3.5rem;
+ } 
+.datos-de-horario-laboral
+{ 
+ border-radius:1.25rem;
+ display:flow-root;
+ margin-top:1.5625rem;
+ width:18.625rem;
+ } 
+.text-datos-0
+{ 
+ color:#009ef7;
+ font-family:Inter;
+ font-size:1.5rem;
+ font-weight:600;
+ line-height:1.8153408765792847rem;
+ width:17.3125rem;
+ margin-left:0.75rem;
+ margin-right:0.5625rem;
+ } 
+.wrapper-group-1
+{ 
+ border-radius:1.25rem;
+ background-color:rgba(255, 255, 255, 1);
+ display:flow-root;
+ width:100%;
+ } 
+.group-7
+{ 
+ display:flow-root;
+ margin-left:1.8125rem;
+ margin-right:1.8125rem;
+ margin-top:1.0rem;
+ margin-bottom:2.5625rem;
+ width:9.125rem;
+ } 
+.horario-de-trabajo
+{ 
+ display:flow-root;
+ width:9.125rem;
+ } 
+.text-horario
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:9.125rem;
+ } 
+.text-09_00
+{ 
+ color:#343a40;
+ font-family:Inter;
+ font-size:1.0rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:8.125rem;
+ margin-top:0.3125rem;
+ } 
+.dias-laborables
+{ 
+ display:flow-root;
+ margin-top:0.625rem;
+ width:5.3125rem;
+ } 
+.text-das
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:4.75rem;
+ } 
+.text-l-m-m-j-v
+{ 
+ color:#343a40;
+ font-family:Inter;
+ font-size:1.0rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:5.3125rem;
+ margin-top:0.3125rem;
+ } 
+.horas-extras
+{ 
+ display:flow-root;
+ margin-top:0.625rem;
+ width:3.9375rem;
+ } 
+.text-horas
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:3.9375rem;
+ } 
+.text--
+{ 
+ color:#343a40;
+ font-family:Inter;
+ font-size:1.0rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:0.5rem;
+ margin-top:0.3125rem;
+ } 
+.datos-bancarios
+{ 
+ border-radius:1.25rem;
+ display:flow-root;
+ margin-top:1.3125rem;
+ width:18.625rem;
+ } 
+.text-datos-1
+{ 
+ color:#009ef7;
+ font-family:Inter;
+ font-size:1.5rem;
+ font-weight:600;
+ line-height:1.8153408765792847rem;
+ width:11.8125rem;
+ margin-left:0.75rem;
+ margin-right:0.75rem;
+ } 
+.wrapper-text-nmero-text-banco
+{ 
+ border-radius:1.25rem;
+ background-color:rgba(255, 255, 255, 1);
+ display:flow-root;
+ width:100%;
+ } 
+.text-nmero-0
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:5.6875rem;
+ margin-left:1.8125rem;
+ margin-right:1.8125rem;
+ margin-top:1.0rem;
+ } 
+.text-banco
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:5.875rem;
+ margin-left:1.8125rem;
+ margin-right:1.8125rem;
+ margin-top:1.625rem;
+ margin-bottom:3.9375rem;
+ } 
+.col1
+{ 
+ border-radius:1.25rem;
+ display:flow-root;
+ width:18.125rem;
+ position:absolute;
+ left:0.0rem;
+ top:0.0rem;
+ } 
+.datos-empleo
+{ 
+ border-radius:1.25rem;
+ display:flow-root;
+ width:17.666961669921875rem;
+ } 
+.text-datos-2
+{ 
+ color:#009ef7;
+ font-family:Inter;
+ font-size:1.5rem;
+ font-weight:600;
+ line-height:1.8153408765792847rem;
+ width:12.824920654296875rem;
+ margin-left:0.588897705078125rem;
+ margin-right:0.588897705078125rem;
+ } 
+.wrapper-text-fecha
+{ 
+ border-radius:1.25rem;
+ background-color:rgba(255, 255, 255, 1);
+ display:flow-root;
+ margin-top:0.125rem;
+ width:100%;
+ } 
+.text-fecha
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:5.49639892578125rem;
+ margin-left:1.570404052734375rem;
+ margin-right:1.570404052734375rem;
+ margin-top:0.5rem;
+ } 
+.text-31
+{ 
+ color:#343a40;
+ font-family:Inter;
+ font-size:1.0rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:8.637176513671875rem;
+ margin-left:1.570404052734375rem;
+ margin-right:1.570404052734375rem;
+ margin-top:0.3125rem;
+ } 
+.text-cdigo
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:6.8050537109375rem;
+ margin-left:1.570404052734375rem;
+ margin-right:1.570404052734375rem;
+ margin-top:0.625rem;
+ } 
+.text-000777
+{ 
+ color:#343a40;
+ font-family:Inter;
+ font-size:1.0rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:3.795135498046875rem;
+ margin-left:1.570404052734375rem;
+ margin-right:1.570404052734375rem;
+ margin-top:0.3125rem;
+ } 
+.text-cargo_
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:2.0938720703125rem;
+ margin-left:1.570404052734375rem;
+ margin-right:1.570404052734375rem;
+ margin-top:0.625rem;
+ } 
+.text-analista
+{ 
+ color:#343a40;
+ font-family:Inter;
+ font-size:1.0rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:10.665618896484375rem;
+ margin-left:1.570404052734375rem;
+ margin-right:1.570404052734375rem;
+ margin-top:0.3125rem;
+ } 
+.text-rea
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:6.8050537109375rem;
+ margin-left:1.570404052734375rem;
+ margin-right:1.570404052734375rem;
+ margin-top:0.8125rem;
+ } 
+.text-area
+{ 
+ color:#343a40;
+ font-family:Inter;
+ font-size:1.0rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:5.103790283203125rem;
+ margin-left:1.570404052734375rem;
+ margin-right:1.570404052734375rem;
+ margin-top:0.3125rem;
+ } 
+.text-tipo
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:5.365509033203125rem;
+ margin-left:1.570404052734375rem;
+ margin-right:1.570404052734375rem;
+ margin-top:0.5625rem;
+ } 
+.text-rxh
+{ 
+ color:#343a40;
+ font-family:Inter;
+ font-size:1.0rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:2.0284423828125rem;
+ margin-left:1.570404052734375rem;
+ margin-right:1.570404052734375rem;
+ margin-top:0.3125rem;
+ margin-bottom:0.5rem;
+ } 
+.datos-salariales
+{ 
+ border-radius:1.25rem;
+ display:flow-root;
+ margin-top:1.4375rem;
+ width:17.666961669921875rem;
+ } 
+.text-datos-3
+{ 
+ color:#009ef7;
+ font-family:Inter;
+ font-size:1.5rem;
+ font-weight:600;
+ line-height:1.8153408765792847rem;
+ width:12.23602294921875rem;
+ margin-left:0.588897705078125rem;
+ margin-right:0.588897705078125rem;
+ } 
+.wrapper-salario-base
+{ 
+ border-radius:1.25rem;
+ background-color:rgba(255, 255, 255, 1);
+ display:flow-root;
+ width:100%;
+ } 
+.salario-base
+{ 
+ display:flow-root;
+ margin-left:1.701263427734375rem;
+ margin-right:1.701263427734375rem;
+ margin-top:0.625rem;
+ width:3.991424560546875rem;
+ } 
+.text-salario
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:3.991424560546875rem;
+ } 
+.text-40000
+{ 
+ color:#343a40;
+ font-family:Inter;
+ font-size:1.0rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:3.53338623046875rem;
+ margin-top:0.3125rem;
+ } 
+.categoria-ocupacional
+{ 
+ display:flow-root;
+ margin-left:1.701263427734375rem;
+ margin-right:1.701263427734375rem;
+ margin-top:0.625rem;
+ width:7.132232666015625rem;
+ } 
+.text-categora
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:7.132232666015625rem;
+ } 
+.text-profesional
+{ 
+ color:#343a40;
+ font-family:Inter;
+ font-size:1.0rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:5.49639892578125rem;
+ margin-top:0.3125rem;
+ } 
+.bonificaciones
+{ 
+ display:flow-root;
+ margin-left:1.701263427734375rem;
+ margin-right:1.701263427734375rem;
+ margin-top:0.625rem;
+ width:8.637176513671875rem;
+ } 
+.text-bonificaciones
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:8.637176513671875rem;
+ } 
+.text---0
+{ 
+ color:#343a40;
+ font-family:Inter;
+ font-size:1.0rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:0.523468017578125rem;
+ margin-top:0.3125rem;
+ } 
+.descuentos
+{ 
+ display:flow-root;
+ margin-left:1.701263427734375rem;
+ margin-right:1.701263427734375rem;
+ margin-top:0.625rem;
+ margin-bottom:0.8125rem;
+ width:3.729705810546875rem;
+ } 
+.text-descuentos
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:3.729705810546875rem;
+ } 
+.text-39999
+{ 
+ color:#343a40;
+ font-family:Inter;
+ font-size:1.0rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:3.59881591796875rem;
+ margin-top:0.3125rem;
+ } 
+.vacaciones-y-permisos
+{ 
+ border-radius:1.25rem;
+ display:flow-root;
+ margin-top:1.3125rem;
+ width:18.125rem;
+ } 
+.text-vacaciones
+{ 
+ color:#009ef7;
+ font-family:Inter;
+ font-size:1.5rem;
+ font-weight:600;
+ line-height:1.8153408765792847rem;
+ width:17.536102294921875rem;
+ margin-left:0.588897705078125rem;
+ } 
+.wrapper-text-fecha-text-permiso
+{ 
+ border-radius:1.25rem;
+ background-color:rgba(255, 255, 255, 1);
+ display:flow-root;
+ width:100%;
+ } 
+.text-fecha-0
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:12.039703369140625rem;
+ margin-left:1.701263427734375rem;
+ margin-right:1.701263427734375rem;
+ margin-top:1.0rem;
+ } 
+.text-permiso
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:7.65570068359375rem;
+ margin-left:1.701263427734375rem;
+ margin-right:1.701263427734375rem;
+ margin-top:1.625rem;
+ } 
+.text-permiso-0
+{ 
+ color:#68717a;
+ font-family:Inter;
+ font-size:0.625rem;
+ font-weight:400;
+ line-height:1.75rem;
+ width:10.992767333984375rem;
+ margin-left:1.701263427734375rem;
+ margin-right:1.701263427734375rem;
+ margin-top:1.625rem;
+ margin-bottom:1.4375rem;
+ } 
